@@ -16,7 +16,7 @@ COPYRIGHT.txt a TEXT file attesting copyright.
 
 2022W-Team-7-video.mp4 recorded final project presentation
 
-videos folder containing video files used during your final presentation (if any)
+videos folder containing video files used during final presentation
 
 2022W-Team-7-poster.pdf final project poster
 
