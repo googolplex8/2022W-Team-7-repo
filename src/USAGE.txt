@@ -1,0 +1,24 @@
+To collect new training data
+1. run the data_collection.py script
+2. press "8" to enter data collection mode
+3. press the corresponding key when making a gesture
+    - press "0" when making an open hand gesture
+    - press "1" when making a closed hand gesture
+    - press "2" when making a pointer finger gesture
+    - press "3" when making a thumbs up gesture
+    - press "4" when making a thumbs down gesture
+    - press "5" when making a "horns up" gesture
+    - press "6" when making a "horns down" gesture
+4. press "9" to stop data collection mode
+
+To train a new gesture classifier
+1. run the "logreg.ipynb" notebook
+2. save the generated .pkl file in the models folder
+
+To see if the gesture classifier works
+1. run the debug_gesture_detection.py script
+
+To run the gesture controlled speaker system
+1. run gesture_detection.py on one RPI
+2. run speaker_led_control.py on the other RPI
+3. connect the corresponding GPIO pins to each other
