@@ -13,6 +13,12 @@ import RPi.GPIO as GPIO
 from utils import CvFpsCalc
 from utils.generate_commands import CommandGenerator
 
+'''
+Run this script on RPi 1. This RPi should have an RPi camera attached to it. 
+This script will output the detected gesture over GPIO to RPi 2.   
+'''
+
+
 GPIO.setmode(GPIO.BCM)
 
 GPIO.setup(17, GPIO.OUT)

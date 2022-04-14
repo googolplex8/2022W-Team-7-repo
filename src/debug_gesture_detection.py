@@ -9,8 +9,18 @@ import cv2 as cv
 import numpy as np
 import mediapipe as mp
 
-from utils import CvFpsCalc
+from utils import cvfpscalc
 from utils.generate_commands import CommandGenerator
+
+'''
+Run this script to test gesture classification in isolation.
+Make sure that there is a valid .pkl file in the models folder. 
+
+Simply run this script, and you should see a screen appear. When you make a gesture, you should see the name of that
+gesture in a box next to your hand. 
+
+Make sure that there is an available camera for this script to use. 
+'''
 
 
 def main():

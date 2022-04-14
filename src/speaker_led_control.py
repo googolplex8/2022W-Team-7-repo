@@ -2,6 +2,15 @@ import vlc
 import time
 import RPi.GPIO as GPIO
 
+'''
+Run this script on RPi 2. This script will read the detected gesture from RPi 1 over GPIO.
+It will then send the corresponding commands to the speaker and LED.
+
+The plist variable must contain the names of all the songs in the songs folder.
+If the name of the song is not in plist, then it will not be available to play.
+'''
+
+
 GPIO.setwarnings(False)
 GPIO.setmode(GPIO.BCM)  # numbering scheme
 
