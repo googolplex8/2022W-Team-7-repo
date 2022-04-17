@@ -1,6 +1,10 @@
 from collections import deque
 import cv2 as cv
 
+'''
+This is a utility function used to calculate the fps at which a program is running.
+'''
+
 
 class CvFpsCalc(object):
     def __init__(self, buffer_len=1):

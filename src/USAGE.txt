@@ -16,7 +16,9 @@ To train a new gesture classifier
 2. save the generated .pkl file in the models folder
 
 To see if the gesture classifier works
-1. run the debug_gesture_detection.py script
+1. open the debug_gesture_detection.py script
+2. change the filename variable to be the classifier you want to test
+3. run the debug_gesture_detection.py script
 
 To run the gesture controlled speaker system
 1. run gesture_detection.py on one RPI

@@ -1,6 +1,14 @@
 from collections import deque
 import time
 
+'''
+This is a utility function used to parse gestures as they are detected. 
+This helps ensure that there are enough of the same gesture detected to actually count as that gesture.
+    - deque_size*vote_threshold is the number of the same gesture that need to be detected to count as a command
+This also helps ensure that commands aren't sent to the speaker and LED too frequently.
+    - command_interval is the fastest rate at which commands can be sent 
+'''
+
 
 class CommandGenerator:
     gestures = deque([])

@@ -10,7 +10,7 @@ import numpy as np
 import mediapipe as mp
 import RPi.GPIO as GPIO
 
-from utils import CvFpsCalc
+from utils import cvfpscalc
 from utils.generate_commands import CommandGenerator
 
 '''

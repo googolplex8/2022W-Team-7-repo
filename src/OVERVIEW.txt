@@ -7,7 +7,7 @@ The 'songs' folder contains the .mp3 files our speaker can play.
 
 The 'utils' folder contains a few scripts used in other programs.
 
-data_collection.py is used to collect the 20 keypoints associated with a gesture.
+data_collection.py is used to collect the 21 keypoints associated with a gesture.
 It is used to collect data so that new classifiers can be trained.
 It requires a camera to run and is to be used on a laptop.
 

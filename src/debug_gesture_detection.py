@@ -19,7 +19,7 @@ Make sure that there is a valid .pkl file in the models folder.
 Simply run this script, and you should see a screen appear. When you make a gesture, you should see the name of that
 gesture in a box next to your hand. 
 
-Make sure that there is an available camera for this script to use. 
+Make sure that there is an available camera for this script to access. 
 '''
 
 

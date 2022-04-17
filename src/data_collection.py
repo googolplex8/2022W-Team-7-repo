@@ -10,7 +10,7 @@ import mediapipe as mp
 
 '''
 Run this script to collect new training data. All data will be appended to the 'data/keypoints.csv' file.
-Make sure that there is an available camera for this script to use. 
+Make sure that there is an available camera for this script to access. 
 
 To collect new training data
 1. run the data_collection.py script
@@ -26,7 +26,7 @@ To collect new training data
 4. press "9" to stop data collection mode
 
 Each gesture is made up of 20 keypoints. The (x,y) coordinates of these keypoints is what is appended to the .csv file.
-We recommend collecting at least 500 sets of keypoints for each new gesture.  
+We recommend collecting at least 1000 sets of keypoints for each new gesture.  
 '''
 
 
