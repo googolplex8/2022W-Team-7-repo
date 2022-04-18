@@ -1,0 +1,6 @@
+numpy
+scikit-learn
+opencv-python
+ffmpeg
+mediapipe-rpi4
+RPi.GPIO
