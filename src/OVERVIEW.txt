@@ -1,7 +1,6 @@
-The 'models' folder contains the trained logistic regression file (logreg_compelte.pkl) and
-the corresponding labels file (keypoint_classifier_label.csv).
+The 'models' folder contains the trained SVM model (svm.pkl), logistic regression model (logreg_complete.pkl) and the corresponding labels file (keypoint_classifier_label.csv).
 
-The 'notebooks' folder contains the Jupyter notebook (logreg.ipynb) used to train our logistic classifier.
+The 'notebooks' folder contains the Jupyter notebook used to train our classifiers(Classifier Comparison.ipynb), and the notebook used to test preprocessing methods (Preprocessing.ipynb).
 
 The 'songs' folder contains the .mp3 files our speaker can play.
 
