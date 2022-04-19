@@ -15,6 +15,8 @@ The zip file has the following contents
 3. 2022W-Team-7-slides.pdf final project presentation as PDF
 
 4. 2022W-Team-7-video.mp4 recorded final project presentation
+ - Please note, the embedded videos in this presentation do not display properly on the Zoom recording.
+   They can be found in the videos folder.
 
 5. videos folder containing video files used during final presentation
 
